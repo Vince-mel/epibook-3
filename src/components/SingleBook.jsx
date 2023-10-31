@@ -10,7 +10,7 @@ const SingleBook = (props) => {
     <>
       <Card
         // onClick={() => this.setState({ selected: !this.state.selected })}
-        onClick={() => props.changeSelectedBook(this.props.book.asin)}
+        onClick={() => props.changeSelectedBook(props.book.asin)}
         style={{
           border:
             props.selectedBook === props.book.asin ? "3px solid red" : "none",

@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 //     comments: [],
 //     isLoading: false,
 //     isError: false,
-//   };
+//  };
 
 const CommentArea = (props) => {
   const [comments, setcomments] = useState([]);
